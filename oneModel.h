@@ -9,5 +9,5 @@
 #import <Foundation/Foundation.h>
 
 @interface oneModel : NSObject
-
+@property(nonatomic,strong)NSString *name;
 @end

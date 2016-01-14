@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7555851F1C47957C00A27002 /* oneModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 7555851E1C47957C00A27002 /* oneModel.m */; };
 		75EDA72E1C461FA0006B0AF3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EDA72D1C461FA0006B0AF3 /* main.m */; };
 		75EDA7311C461FA0006B0AF3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EDA7301C461FA0006B0AF3 /* AppDelegate.m */; };
 		75EDA7341C461FA0006B0AF3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 75EDA7331C461FA0006B0AF3 /* ViewController.m */; };
@@ -22,6 +23,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7555851D1C47957C00A27002 /* oneModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = oneModel.h; sourceTree = "<group>"; };
+		7555851E1C47957C00A27002 /* oneModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = oneModel.m; sourceTree = "<group>"; };
 		75EDA7291C461FA0006B0AF3 /* ViewLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		75EDA72D1C461FA0006B0AF3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		75EDA72F1C461FA0006B0AF3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -56,6 +59,8 @@
 		75EDA7201C461FA0006B0AF3 = {
 			isa = PBXGroup;
 			children = (
+				7555851D1C47957C00A27002 /* oneModel.h */,
+				7555851E1C47957C00A27002 /* oneModel.m */,
 				75EDA74B1C4620D2006B0AF3 /* UIView+Layout.h */,
 				75EDA74C1C4620D2006B0AF3 /* UIView+Layout.m */,
 				75EDA7431C461FE0006B0AF3 /* photo_def_photoPickerVc@2x.png */,
@@ -177,6 +182,7 @@
 			files = (
 				75EDA7501C46261B006B0AF3 /* PersonModel.m in Sources */,
 				75EDA74D1C4620D2006B0AF3 /* UIView+Layout.m in Sources */,
+				7555851F1C47957C00A27002 /* oneModel.m in Sources */,
 				75EDA7341C461FA0006B0AF3 /* ViewController.m in Sources */,
 				75EDA7311C461FA0006B0AF3 /* AppDelegate.m in Sources */,
 				75EDA72E1C461FA0006B0AF3 /* main.m in Sources */,
@@ -326,6 +332,7 @@
 				75EDA7421C461FA0006B0AF3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
